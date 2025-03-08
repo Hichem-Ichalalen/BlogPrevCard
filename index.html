@@ -10,23 +10,33 @@
     <title>BlogPrevCard</title>
     <link rel="icon" href="images/favicon-32x32.png" type="image/x-icon" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section>
-      <img
-        class="illustration"
-        src="images/illustration-article.svg"
-        alt="Illustration"
-      />
-      <p class="status">Learning</p>
-      <p>Published 21 dec 2023</p>
-      <h2>HTML & CSS Foundations</h2>
-      <p>
-        These Languages are the backbone of every website, defining structure,
-        content and presentation
-      </p>
-      <img src="images/image-avatar.webp" alt="" width="20" height="20" />
-      <p>Greg Hooper</p>
+      <figure>
+        <img
+          class="illustration"
+          src="images/illustration-article.svg"
+          alt="Illustration"
+        />
+        <p class="status">Learning</p>
+        <p class="date">Published 21 dec 2023</p>
+        <h2>HTML & CSS Foundations</h2>
+        <figcaption>
+          These Languages are the backbone of every website, defining structure,
+          content and presentation
+        </figcaption>
+      </figure>
+      <div class="author">
+        <img src="images/image-avatar.webp" alt="" width="20" height="20" />
+        <p>Greg Hooper</p>
+      </div>
     </section>
   </body>
 </html>
